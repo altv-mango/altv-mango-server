@@ -9,7 +9,10 @@ await esbuild.build({
     target: 'esnext',
     format: 'esm',
     sourcemap: 'inline',
-    minify: true,
-    plugins: [esbuildPluginTsc()],
+    minify: false,
+    plugins: [esbuildPluginTsc({
+        force: true,
+        tsconfigPath: 'tsconfig.json',
+    })],
     external: [...Object.keys(packageJson.dependencies), 'crypto'],
 });
