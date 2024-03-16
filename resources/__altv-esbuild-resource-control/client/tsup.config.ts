@@ -13,7 +13,7 @@ export default defineConfig((options) => {
         dts: false,
         format: 'esm',
         bundle: true,
-        minify: false,
+        minify: !dev,
         external: Object.keys(packageJson.dependencies),
         noExternal: Object.keys(packageJson.devDependencies),
     };
