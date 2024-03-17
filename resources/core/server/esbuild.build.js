@@ -9,6 +9,7 @@ await esbuild.build({
     target: 'esnext',
     format: 'esm',
     sourcemap: 'inline',
+    keepNames:true,
     minify: false,
     plugins: [esbuildPluginTsc({
         force: true,
