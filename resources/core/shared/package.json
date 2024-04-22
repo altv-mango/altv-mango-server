@@ -6,8 +6,8 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@swc/core": "^1.4.11",
+        "@swc/core": "^1.4.16",
         "tsup": "^8.0.2",
-        "typescript": "^5.4.3"
+        "typescript": "^5.4.5"
     }
 }

@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "altv-pkg": "^2.7.5",
-        "turbo": "^1.13.0",
+        "turbo": "^1.13.2",
         "prettier": "^3.2.5"
     }
 }
