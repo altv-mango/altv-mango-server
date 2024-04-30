@@ -11,7 +11,7 @@ const ctx = await esbuild.context({
     target: 'esnext',
     format: 'esm',
     sourcemap: 'inline',
-    keepNames:true,
+    keepNames: true,
     plugins: [
         esbuildPluginTsc(),
         altvEsbuild({
