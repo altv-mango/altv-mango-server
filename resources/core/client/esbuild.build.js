@@ -19,5 +19,5 @@ await esbuild.build({
             __WEBVIEW_URL__: 'http://resource/ui/dist/index.html',
         }),
     ],
-    external: Object.keys(packageJson.dependencies),
+    external: [...Object.keys(packageJson.dependencies), 'alt-client'],
 });

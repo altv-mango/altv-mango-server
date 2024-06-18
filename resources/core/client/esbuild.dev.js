@@ -27,7 +27,7 @@ const ctx = await esbuild.context({
             __WEBVIEW_URL__: 'http://localhost:5173/',
         }),
     ],
-    external: Object.keys(packageJson.dependencies),
+    external: [...Object.keys(packageJson.dependencies), 'alt-client'],
 });
 
 ctx.watch();

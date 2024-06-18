@@ -10,7 +10,7 @@ const ctx = await esbuild.context({
     target: 'esnext',
     format: 'esm',
     sourcemap: 'inline',
-    keepNames:true,
+    keepNames: true,
     plugins: [
         esbuildPluginTsc(),
         altvEsbuild({
@@ -23,7 +23,7 @@ const ctx = await esbuild.context({
         }),
     ],
 
-    external: Object.keys(packageJson.dependencies),
+    external: [...Object.keys(packageJson.dependencies), 'alt-server'],
 });
 
 ctx.watch();
