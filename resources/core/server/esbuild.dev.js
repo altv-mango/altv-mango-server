@@ -1,6 +1,6 @@
 import esbuild from 'esbuild';
 import { altvEsbuild } from 'altv-esbuild';
-import packageJson from './package.json' assert { type: 'json' };
+import packageJson from './package.json' with { type: 'json' };
 import esbuildPluginTsc from 'esbuild-plugin-tsc';
 
 const ctx = await esbuild.context({

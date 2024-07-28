@@ -6,19 +6,19 @@
         "dev": "node esbuild.dev.js"
     },
     "dependencies": {
-        "@altv/client": "^0.0.39",
+        "@altv/client": "^0.0.41",
         "@altv/shared": "^0.0.19"
     },
     "devDependencies": {
         "@abraham/reflection": "^0.12.0",
-        "@altv-mango/client": "^2.0.1-beta",
-        "@altv-mango/core": "^2.0.1-beta",
-        "@swc/core": "^1.6.1",
-        "altv-esbuild": "^0.7.2",
-        "esbuild": "^0.21.5",
+        "@altv-mango/client": "^2.0.6-beta",
+        "@altv-mango/core": "^2.0.6-beta",
+        "@swc/core": "^1.7.3",
+        "altv-esbuild": "^0.8.3",
+        "esbuild": "^0.23.0",
         "esbuild-plugin-replace": "^1.4.0",
         "esbuild-plugin-tsc": "^0.4.0",
-        "tsup": "^8.1.0",
-        "typescript": "^5.4.5"
+        "tsup": "^8.2.3",
+        "typescript": "^5.5.4"
     }
 }

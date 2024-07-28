@@ -18,3 +18,4 @@ vite.config.ts.timestamp-*
 libnodev2.dll
 altv-server.exe
 altv-crash-handler.exe
+libnode.dll
