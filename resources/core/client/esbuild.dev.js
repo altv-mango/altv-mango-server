@@ -20,6 +20,7 @@ const ctx = await esbuild.context({
                 enabled: true,
                 enhancedRestartCommand: false,
                 topLevelExceptionHandling: true,
+                // moveExternalsOnTopIgnore: ['@altv/client', '@altv/shared'], // Uncomment this line if you are using js-module
             },
         }),
         replace({
